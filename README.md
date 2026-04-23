@@ -1,4 +1,4 @@
-# Netflix Clone - Case Study
+# Netflix Clone - Case Study SBD9
 
 This is a simple Netflix clone built as a case study project using Next.js 14 (App Router), Tailwind CSS, and the TMDB (The Movie Database) API.
 
