@@ -44,7 +44,7 @@ export default async function Home() {
       <MovieRow title="Top Rated" movies={topRatedMovies} />
       <MovieRow title="Netflix Originals" movies={netflixMovies} />
 
-      <footer className="bg-black/80 border-t border-gray-700 px-4 sm:px-8 md:px-12 lg:px-16 py-8">
+      <footer className="bg-black/80 border-t border-gray-700 px-6 sm:px-12 md:px-16 lg:px-24 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-gray-400 text-sm">
           <div className="space-y-4">
             <h3 className="font-bold text-white text-base">Company</h3>
@@ -80,7 +80,7 @@ export default async function Home() {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-gray-500 text-xs">
-          <p>&copy; 2024 Netflix Clone. All rights reserved.</p>
+          <p>dibuat oleh Gorga.</p>
         </div>
       </footer>
     </main>

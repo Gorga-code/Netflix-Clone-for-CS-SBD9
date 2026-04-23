@@ -31,7 +31,7 @@ export default function HeroSection({
       </div>
 
       {/* Content */}
-      <div className="relative h-full flex flex-col justify-end px-4 sm:px-8 md:px-12 lg:px-16 pb-12 md:pb-20">
+      <div className="relative h-full flex flex-col justify-end px-6 sm:px-12 md:px-16 lg:px-24 pb-16 md:pb-24">
         <div className="max-w-2xl">
           {/* Title */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-4 tracking-tight">
@@ -45,13 +45,13 @@ export default function HeroSection({
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="px-8 py-2 md:py-3 bg-white text-black font-bold rounded hover:bg-opacity-75 transition-all duration-200 flex items-center justify-center space-x-2 text-sm md:text-base">
+            <button className="px-10 py-3 md:py-4 bg-white text-black font-bold rounded hover:bg-opacity-75 transition-all duration-200 flex items-center justify-center space-x-2 text-sm md:text-base">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
               <span>Play</span>
             </button>
-            <button className="px-8 py-2 md:py-3 bg-gray-600/50 text-white font-bold rounded hover:bg-gray-600/80 transition-all duration-200 flex items-center justify-center space-x-2 text-sm md:text-base backdrop-blur-sm border border-gray-500/30">
+            <button className="px-10 py-3 md:py-4 bg-gray-600/50 text-white font-bold rounded hover:bg-gray-600/80 transition-all duration-200 flex items-center justify-center space-x-2 text-sm md:text-base backdrop-blur-sm border border-gray-500/30">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>

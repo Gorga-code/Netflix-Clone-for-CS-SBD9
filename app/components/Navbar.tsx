@@ -25,18 +25,15 @@ export default function Navbar() {
         isScrolled ? 'bg-black/90 backdrop-blur-md' : 'bg-transparent'
       }`}
     >
-      <div className="px-4 sm:px-8 lg:px-16 py-4">
+      <div className="px-6 sm:px-12 lg:px-24 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-red-600 rounded flex items-center justify-center">
-              <span className="text-white font-bold text-lg">N</span>
-            </div>
-            <span className="text-red-600 font-bold text-xl hidden sm:inline">NETFLIX</span>
+            <span className="text-red-600 font-black text-3xl sm:text-4xl">NETFLIX</span>
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-10">
             <a href="#" className="text-white hover:text-gray-300 transition-colors">Home</a>
             <a href="#" className="text-white hover:text-gray-300 transition-colors">TV Shows</a>
             <a href="#" className="text-white hover:text-gray-300 transition-colors">Movies</a>
@@ -50,7 +47,7 @@ export default function Navbar() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </button>
-            <div className="w-8 h-8 bg-gray-600 rounded flex items-center justify-center cursor-pointer hover:bg-gray-500 transition-colors">
+            <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-500 transition-colors">
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
               </svg>

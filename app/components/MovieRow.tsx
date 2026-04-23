@@ -50,7 +50,7 @@ export default function MovieRow({ title, movies }: MovieRowProps) {
   };
 
   return (
-    <div className="px-4 sm:px-8 md:px-12 lg:px-16 py-8 space-y-4">
+    <div className="px-6 sm:px-12 md:px-16 lg:px-24 py-10 space-y-4">
       {/* Title */}
       <h2 className="text-xl md:text-2xl font-bold text-white">{title}</h2>
 
